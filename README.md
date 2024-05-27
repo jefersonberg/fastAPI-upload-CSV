@@ -21,14 +21,19 @@ Este projeto demonstra como criar uma API usando FastAPI para fazer upload de ar
     git clone https://github.com/jefersonberg/fastAPI-upload-CSV.git
     cd fastAPI-upload-CSV
     ```
-
 2. Inicie os containers no docker:
 
     ```bash
     docker-compose up --build
     ```
+	
+2. Ou instale as dependências para rodar sem docker:
 
-## Uso
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Uso sem docker
 
 1. Execute a aplicação FastAPI com o Uvicorn:
 
