@@ -1,0 +1,9 @@
+fastapi
+pymongo
+uvicorn
+pydantic
+pydantic-settings
+mongomock
+chardet
+pandas
+pika
