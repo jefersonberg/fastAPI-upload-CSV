@@ -22,10 +22,10 @@ Este projeto demonstra como criar uma API usando FastAPI para fazer upload de ar
     cd fastAPI-upload-CSV
     ```
 
-2. Instale as dependências:
+2. Inicie os containers no docker:
 
     ```bash
-    pip install -r requirements.txt
+    docker-compose up --build
     ```
 
 ## Uso
